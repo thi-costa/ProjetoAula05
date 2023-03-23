@@ -11,8 +11,8 @@ import java.time.LocalDateTime;
 public class AtividadeDTO {
 
     private Long id;
-    @Size(max = 80, message = "tamanho do nome acima do permitido")
-    @NotBlank(message = "Nome deve conter algum valor")
+    @Size(max = 80, message = "tamanho do 'titulo' acima do permitido")
+    @NotBlank(message = "'titulo' deve conter algum valor")
     private String titulo;
     private String descricao;
 
