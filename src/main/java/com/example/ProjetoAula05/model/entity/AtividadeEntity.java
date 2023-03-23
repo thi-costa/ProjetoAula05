@@ -26,11 +26,11 @@ public class AtividadeEntity {
     private Boolean finalizado;
 
     @CreationTimestamp
-    @Column(name = "criado_em")
+    @Column(name = "criado_em", nullable = false, updatable = false)
     private LocalDateTime criadoEm;
 
     @UpdateTimestamp
-    @Column(name = "atualizado_em")
+    @Column(name = "atualizado_em", nullable = false)
     private LocalDateTime atualizadoEm;
 
 
