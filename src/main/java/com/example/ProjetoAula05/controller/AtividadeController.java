@@ -4,7 +4,6 @@ import com.example.ProjetoAula05.model.dto.AtividadeDTO;
 import com.example.ProjetoAula05.model.dto.MensagemDTO;
 import com.example.ProjetoAula05.service.AtividadeService;
 import jakarta.persistence.EntityNotFoundException;
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
