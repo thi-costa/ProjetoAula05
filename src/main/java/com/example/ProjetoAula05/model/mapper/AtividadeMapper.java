@@ -25,9 +25,9 @@ public class AtividadeMapper {
         atividadeEntity.setTitulo(atividade.getTitulo());
         atividadeEntity.setDescricao(atividade.getDescricao());
         atividadeEntity.setFinalizado(atividade.getFinalizado());
-        //pelo intelij
-        // meets rodrigo:
-        https://meet.google.com/pky-ccvf-nao
+        atividadeEntity.setCriadoEm(atividade.getCriadoEm());
+        atividadeEntity.setAtualizadoEm(atividade.getAtualizadoEm());
+        
         return atividadeEntity;
     }
     public List<AtividadeDTO> updateListDTO(List<AtividadeEntity> listaEntity){
